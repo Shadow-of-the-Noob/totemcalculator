@@ -182,6 +182,10 @@ Gui, Add, Edit, w200 h200 y+%lineSpacing% -HScroll -VScroll vEditCustomPrices, %
 Gui, Add, Button, gSaveCustomPrices, Save Prices
 Gui, Add, Button, x+5 gLoadDefaultPrices, Reset Prices
 
+;*************************TO DO*********************************
+;add user inventory and calculate shopping list (item to shop = total - inventory on hand)
+;*******************************************************************
+
 Gosub, initializeTotem
 Gosub, updateMaterials	
 Gui, Show, x%GuiPosX% y%GuiPosY%
